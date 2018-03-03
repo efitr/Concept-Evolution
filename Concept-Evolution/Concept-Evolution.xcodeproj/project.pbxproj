@@ -13,6 +13,7 @@
 		EC261C3A20035C0F00696FB6 /* Concept_Evolution.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EC261C3820035C0F00696FB6 /* Concept_Evolution.xcdatamodeld */; };
 		EC261C3C20035C0F00696FB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC261C3B20035C0F00696FB6 /* Assets.xcassets */; };
 		EC261C3F20035C0F00696FB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC261C3D20035C0F00696FB6 /* LaunchScreen.storyboard */; };
+		ECE7D07D204A1A2F003F1AD0 /* MainFunctionalTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE7D07C204A1A2F003F1AD0 /* MainFunctionalTableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		EC261C3B20035C0F00696FB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC261C3E20035C0F00696FB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC261C4020035C0F00696FB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECE7D07C204A1A2F003F1AD0 /* MainFunctionalTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainFunctionalTableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		EC261C3020035C0F00696FB6 /* Concept-Evolution */ = {
 			isa = PBXGroup;
 			children = (
+				ECE7D07E204A1A3F003F1AD0 /* FunctionalTableView */,
 				EC261C3120035C0F00696FB6 /* AppDelegate.swift */,
 				EC261C3320035C0F00696FB6 /* ViewController.swift */,
 				EC261C3520035C0F00696FB6 /* Main.storyboard */,
@@ -65,6 +68,14 @@
 				EC261C3820035C0F00696FB6 /* Concept_Evolution.xcdatamodeld */,
 			);
 			path = "Concept-Evolution";
+			sourceTree = "<group>";
+		};
+		ECE7D07E204A1A3F003F1AD0 /* FunctionalTableView */ = {
+			isa = PBXGroup;
+			children = (
+				ECE7D07C204A1A2F003F1AD0 /* MainFunctionalTableView.swift */,
+			);
+			path = FunctionalTableView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +153,7 @@
 				EC261C3420035C0F00696FB6 /* ViewController.swift in Sources */,
 				EC261C3220035C0F00696FB6 /* AppDelegate.swift in Sources */,
 				EC261C3A20035C0F00696FB6 /* Concept_Evolution.xcdatamodeld in Sources */,
+				ECE7D07D204A1A2F003F1AD0 /* MainFunctionalTableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
