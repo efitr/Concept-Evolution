@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="13240" systemVersion="17C88" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Concept" representedClassName="Concept" syncable="YES" codeGenerationType="class">
+        <attribute name="definition" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="idea" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="has_many_tagged_images" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Tagged_image" syncable="YES"/>
+    </entity>
+    <entity name="Evolving_concept" representedClassName="Evolving_concept" syncable="YES" codeGenerationType="class">
+        <attribute name="concept" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="tagged_image" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <relationship name="has_many_concepts" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Concept" syncable="YES"/>
+        <relationship name="has_many_tagged_images" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Tagged_image" syncable="YES"/>
+    </entity>
+    <entity name="Tagged_image" representedClassName="Tagged_image" syncable="YES" codeGenerationType="class">
+        <attribute name="photo" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="tagsArray" optional="YES" attributeType="Transformable" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Concept" positionX="-63" positionY="-18" width="128" height="90"/>
+        <element name="Tagged_image" positionX="-54" positionY="18" width="128" height="75"/>
+        <element name="Evolving_concept" positionX="-36" positionY="36" width="128" height="105"/>
+    </elements>
+</model>

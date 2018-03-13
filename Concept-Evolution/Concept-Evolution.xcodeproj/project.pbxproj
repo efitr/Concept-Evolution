@@ -7,8 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC2555A420582E0600D14E7C /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2555A320582E0600D14E7C /* CoreDataStack.swift */; };
+		EC2555A720582E4600D14E7C /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2555A620582E4600D14E7C /* Networking.swift */; };
+		EC2555A92058318400D14E7C /* ConceptEvolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2555A82058318400D14E7C /* ConceptEvolution.swift */; };
+		EC2555AC205831A100D14E7C /* Concept.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2555AB205831A100D14E7C /* Concept.swift */; };
+		EC2555AF2058322900D14E7C /* ArrayDefinitionImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2555AE2058322900D14E7C /* ArrayDefinitionImage.swift */; };
+		EC2555B22058327700D14E7C /* DefinitionTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2555B12058327700D14E7C /* DefinitionTableView.swift */; };
+		EC2555B4205832B300D14E7C /* ImageCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2555B3205832B300D14E7C /* ImageCollectionView.swift */; };
 		EC261C3220035C0F00696FB6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC261C3120035C0F00696FB6 /* AppDelegate.swift */; };
-		EC261C3420035C0F00696FB6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC261C3320035C0F00696FB6 /* ViewController.swift */; };
 		EC261C3720035C0F00696FB6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC261C3520035C0F00696FB6 /* Main.storyboard */; };
 		EC261C3A20035C0F00696FB6 /* Concept_Evolution.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EC261C3820035C0F00696FB6 /* Concept_Evolution.xcdatamodeld */; };
 		EC261C3C20035C0F00696FB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC261C3B20035C0F00696FB6 /* Assets.xcassets */; };
@@ -17,9 +23,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EC2555A320582E0600D14E7C /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		EC2555A620582E4600D14E7C /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		EC2555A82058318400D14E7C /* ConceptEvolution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConceptEvolution.swift; sourceTree = "<group>"; };
+		EC2555AB205831A100D14E7C /* Concept.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concept.swift; sourceTree = "<group>"; };
+		EC2555AE2058322900D14E7C /* ArrayDefinitionImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayDefinitionImage.swift; sourceTree = "<group>"; };
+		EC2555B12058327700D14E7C /* DefinitionTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefinitionTableView.swift; sourceTree = "<group>"; };
+		EC2555B3205832B300D14E7C /* ImageCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionView.swift; sourceTree = "<group>"; };
 		EC261C2E20035C0F00696FB6 /* Concept-Evolution.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Concept-Evolution.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC261C3120035C0F00696FB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EC261C3320035C0F00696FB6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EC261C3620035C0F00696FB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EC261C3920035C0F00696FB6 /* Concept_Evolution.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Concept_Evolution.xcdatamodel; sourceTree = "<group>"; };
 		EC261C3B20035C0F00696FB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -39,6 +51,57 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EC2555A520582E1C00D14E7C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EC2555A320582E0600D14E7C /* CoreDataStack.swift */,
+				EC261C3820035C0F00696FB6 /* Concept_Evolution.xcdatamodeld */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EC2555AA2058318C00D14E7C /* Layer1 */ = {
+			isa = PBXGroup;
+			children = (
+				EC2555A82058318400D14E7C /* ConceptEvolution.swift */,
+			);
+			path = Layer1;
+			sourceTree = "<group>";
+		};
+		EC2555AD205831AC00D14E7C /* Layer2 */ = {
+			isa = PBXGroup;
+			children = (
+				EC2555AB205831A100D14E7C /* Concept.swift */,
+			);
+			path = Layer2;
+			sourceTree = "<group>";
+		};
+		EC2555B02058322E00D14E7C /* Layer3 */ = {
+			isa = PBXGroup;
+			children = (
+				EC2555AE2058322900D14E7C /* ArrayDefinitionImage.swift */,
+				EC2555B5205832B900D14E7C /* Layer4 */,
+			);
+			path = Layer3;
+			sourceTree = "<group>";
+		};
+		EC2555B5205832B900D14E7C /* Layer4 */ = {
+			isa = PBXGroup;
+			children = (
+				EC2555B12058327700D14E7C /* DefinitionTableView.swift */,
+				EC2555B3205832B300D14E7C /* ImageCollectionView.swift */,
+			);
+			path = Layer4;
+			sourceTree = "<group>";
+		};
+		EC2555B6205832FD00D14E7C /* APICalls */ = {
+			isa = PBXGroup;
+			children = (
+				EC2555A620582E4600D14E7C /* Networking.swift */,
+			);
+			path = APICalls;
+			sourceTree = "<group>";
+		};
 		EC261C2520035C0F00696FB6 = {
 			isa = PBXGroup;
 			children = (
@@ -58,14 +121,17 @@
 		EC261C3020035C0F00696FB6 /* Concept-Evolution */ = {
 			isa = PBXGroup;
 			children = (
-				ECE7D07E204A1A3F003F1AD0 /* FunctionalTableView */,
 				EC261C3120035C0F00696FB6 /* AppDelegate.swift */,
-				EC261C3320035C0F00696FB6 /* ViewController.swift */,
+				ECE7D07E204A1A3F003F1AD0 /* FunctionalTableView */,
+				EC2555A520582E1C00D14E7C /* Models */,
+				EC2555B6205832FD00D14E7C /* APICalls */,
+				EC2555AA2058318C00D14E7C /* Layer1 */,
+				EC2555AD205831AC00D14E7C /* Layer2 */,
+				EC2555B02058322E00D14E7C /* Layer3 */,
 				EC261C3520035C0F00696FB6 /* Main.storyboard */,
 				EC261C3B20035C0F00696FB6 /* Assets.xcassets */,
 				EC261C3D20035C0F00696FB6 /* LaunchScreen.storyboard */,
 				EC261C4020035C0F00696FB6 /* Info.plist */,
-				EC261C3820035C0F00696FB6 /* Concept_Evolution.xcdatamodeld */,
 			);
 			path = "Concept-Evolution";
 			sourceTree = "<group>";
@@ -150,8 +216,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC261C3420035C0F00696FB6 /* ViewController.swift in Sources */,
+				EC2555A420582E0600D14E7C /* CoreDataStack.swift in Sources */,
+				EC2555AF2058322900D14E7C /* ArrayDefinitionImage.swift in Sources */,
 				EC261C3220035C0F00696FB6 /* AppDelegate.swift in Sources */,
+				EC2555B22058327700D14E7C /* DefinitionTableView.swift in Sources */,
+				EC2555A720582E4600D14E7C /* Networking.swift in Sources */,
+				EC2555AC205831A100D14E7C /* Concept.swift in Sources */,
+				EC2555A92058318400D14E7C /* ConceptEvolution.swift in Sources */,
+				EC2555B4205832B300D14E7C /* ImageCollectionView.swift in Sources */,
 				EC261C3A20035C0F00696FB6 /* Concept_Evolution.xcdatamodeld in Sources */,
 				ECE7D07D204A1A2F003F1AD0 /* MainFunctionalTableView.swift in Sources */,
 			);
